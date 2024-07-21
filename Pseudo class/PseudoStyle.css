@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: blue;
+}
+
+/*pseudo class*/
+
+
+ 
+a:visited {
+  color: purple;
+}
+
+a:hover, a:focus {
+  color: dodgerblue;
+ }
+
+a:active {
+  color: red;
+}
+
+
+
+
+

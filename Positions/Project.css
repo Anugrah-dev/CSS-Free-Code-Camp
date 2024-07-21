@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {scroll-behavior: smooth;}
+
+section {
+    height: 100vh;
+}
+
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+
+header, footer {
+    color: whitesmoke;
+    text-align: center;
+    height: 100px;
+    font-size: 5rem;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    background-color: #333;
+    /* position: fixed;  */         /* if we will use position: fixed; footer wouldn't span a full width so either we can set position to sticky or just do width : 100%*/
+    position: sticky;
+    bottom: 0;
+    
+    /* width: 100%; */
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+footer a:visited {
+    color: blueviolet;
+}
+footer a:hover {
+    color: pink;
+}
+
+
+p {
+    margin: 10px;
+    font-size: 2rem;
+}
+
+
+button {
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    top: 30%;
+    left: 0%;
+    z-index: 1;
+}
+
+.linkedin {
+    background-color: rgba(92, 92, 255, 0.795);
+}

@@ -1,0 +1,10 @@
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+  /* list-style-image: url("./images/checked.png"); */
+}
+ul ::marker {
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  content: "Hello >>> ";
+}
