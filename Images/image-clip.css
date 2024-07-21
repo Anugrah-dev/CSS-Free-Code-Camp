@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+
+.clip {
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url(./img/background.jpg);
+    background-size: 100%;
+    text-transform: uppercase;
+
+    -webkit-background-clip: text;     /* this is sone kind of pre fix cause chrome does not support background clip */
+    background-clip: text;       /* if there is a browser who does not require a pre fix then this will do the job as the pre fix will only work when not supported in any browser */
+    color: transparent;
+}
