@@ -7,8 +7,8 @@
 /* || Variables*/
 
 :root {
-    --BGCOLOR: #475569;
-    --ALT-BGCOLOR: #1E293B;
+    --BGCOLOR: #475569;     /* BGCOLOR = Background color */
+    --ALT-BGCOLOR: #1E293B;          /* ALT-BGCOLOR = Alternate Background color */
     --RADIAL-COLOR: whitesmoke;
     --LIGHT-COLOR: whitesmoke;
     --DARK-COLOR: #000;
@@ -55,6 +55,7 @@ nav {
     color: var(--DARK-COLOR);
     padding: 0.5rem;
     border-bottom: 2px solid var(--DARK-COLOR);
+    box-shadow: 0 6px 5px -5px var(--DARK-COLOR);
 }
 
 main {
