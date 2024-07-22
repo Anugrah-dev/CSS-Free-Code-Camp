@@ -97,7 +97,7 @@ footer {
 
 
 /* || MOBILE DEVICE LANDSCAPE */
-@media screen and (min-height: 425px) and (min-aspect-ratio: 7/4) {
+@media screen and (min-height: 576px) and (min-aspect-ratio: 7/4) {
     body {
         background-color: dodgerblue;
         background-image: radial-gradient(whitesmoke, dodgerblue);
