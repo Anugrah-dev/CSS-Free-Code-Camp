@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.5rem;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+div {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  display: grid;
+  place-content: center;
+}
+
+
+div:nth-child(1) {
+  background-color: dodgerblue;
+}
+
+div:nth-child(2) {
+  background-color: yellow;
+}
+
+div:nth-child(3) {
+  background-color: limegreen;
+}
+
+
+div:hover {
+  background-color: midnightblue;
+  transition-property: background-color, transform;
+  transition-duration: 2s, 4s;
+  transition-timing-function: linear;
+}
+
+div:last-child:hover {
+  transform: rotate(360deg);
+}
